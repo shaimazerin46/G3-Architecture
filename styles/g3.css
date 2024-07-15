@@ -21,7 +21,7 @@ body{
     color: rgba(66, 66, 66, 1);
 }
 .dark_3{
-    color: rgba(19, 19, 19, 1);
+    color: rgba(114, 114, 114, 1);
 }
 .highlight_color{
     color: #FF900E;
@@ -41,6 +41,7 @@ body{
 /* header style */
 header{
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* navbar style */
@@ -63,6 +64,8 @@ header{
     font-size: medium;
     font-size: 18px;
 }
+
+/* banner styles */
 .banner{
     
     margin: 0 auto;
@@ -92,7 +95,40 @@ header{
     height: 100%;
 }
 
+/* main styles */
+#main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#main>section{
+    margin-top: 130px;
+    padding: 0px 100px;
+}
+/* team section styles */
+.team_section{
+    display: flex;
+    gap: 73px;
+}
+.team_images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.team_features{
+    padding: 187px 0px;
+}
+.team_heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.team_description{
+    padding: 24px 0px;
+    font-size: 16px;
+}
 /* responsive design */
+
+/* header */
 @media screen and (max-width: 576px){
     .navbar, .nav-link{
         flex-direction: column;
@@ -117,5 +153,24 @@ header{
     .brand{
         text-align: center;
         padding: 10px 0px;
+    }
+}
+
+/* team section */
+
+@media screen and (max-width: 576px){
+    #main>section{
+        padding: 0px 20px;
+        margin-top: 40px;
+    }
+    .team_section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .team_images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team_features{
+        padding: 20px 0px;
     }
 }
