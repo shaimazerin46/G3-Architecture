@@ -136,7 +136,7 @@ header{
     .all_padding{
         padding: 0px;
     }
-    .banner_heading, .brand{
+    /* .banner_heading, .brand{
         font-size: 1rem;
     }
     .banner_description{
@@ -144,7 +144,7 @@ header{
     }
    .banner_content{
     width: 200px;
-   }
+   } */
     .banner_image{
         padding: 10px 0px;
         height: auto;
