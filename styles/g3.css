@@ -148,17 +148,13 @@ header{
     .banner_image{
         padding: 10px 0px;
         height: auto;
-        width: 200px;
+        /* width: 200px; */
     }
     .brand{
         text-align: center;
         padding: 10px 0px;
     }
-}
 
-/* team section */
-
-@media screen and (max-width: 576px){
     #main>section{
         padding: 0px 20px;
         margin-top: 40px;
@@ -174,3 +170,5 @@ header{
         padding: 20px 0px;
     }
 }
+
+
